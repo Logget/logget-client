@@ -1,0 +1,8 @@
+@use "res/typography";
+@import "global/reset";
+@import "global/font";
+
+body {
+  font-size: 1rem;
+  font-family: typography.$font;
+}
