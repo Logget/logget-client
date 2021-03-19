@@ -1,0 +1,16 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="257" height="261" viewBox="0 0 257 261">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.973" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4b00ff"/>
+      <stop offset="1" stop-color="#aa14ff"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="128.5" cy="130.5" rx="128.5" ry="130.5" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="logo-2" data-name="logo" clip-path="url(#clip-path)">
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="128.5" cy="130.5" rx="128.5" ry="130.5" fill="url(#linear-gradient)"/>
+    <rect id="_" width="55" height="197" rx="27.5" transform="translate(297 103) rotate(90)" fill="#fff" opacity="0.603" style="mix-blend-mode: luminosity;isolation: isolate"/>
+    <path id="l" d="M27.053,0A27.12,27.12,0,0,1,54.105,27.187V209.344a27.053,27.053,0,1,1-54.105,0V27.187A27.12,27.12,0,0,1,27.053,0Z" transform="translate(100.095 -78.844)" fill="#fff" opacity="0.6" style="mix-blend-mode: luminosity;isolation: isolate"/>
+  </g>
+</svg>

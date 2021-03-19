@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/global.scss";
 import { Route, BrowserRouter, Switch } from "react-router-dom";
 import { NoLayout } from "../layouts/NoLayout/NoLayout";
+import { Home } from "./Home/Home";
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route exact path="/">
-            <NoLayout>hello</NoLayout>
+            <NoLayout>
+              <Home />
+            </NoLayout>
           </Route>
           <Route path="/login">
             <NoLayout>login</NoLayout>
