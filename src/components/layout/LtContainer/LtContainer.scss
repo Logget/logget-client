@@ -1,0 +1,11 @@
+@use "../../../styles/res/rem";
+
+.lt-container {
+  max-width: rem.rem-calc(820px);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.lt-container-fluid {
+  padding: 0 1rem;
+}

@@ -1,8 +1,10 @@
 @use "res/typography";
+@use "res/colors";
 @import "global/reset";
 @import "global/font";
 
 body {
   font-size: 1rem;
   font-family: typography.$font;
+  color: colors.$base-black;
 }
