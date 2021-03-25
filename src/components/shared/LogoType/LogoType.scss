@@ -1,0 +1,17 @@
+@use "../../../styles/res/rem";
+
+.logo-type {
+  display: flex;
+  align-items: center;
+
+  > .image {
+    width: rem.rem-calc(48);
+    height: rem.rem-calc(48);
+    margin-right: rem.rem-calc(8);
+  }
+
+  > .title {
+    font-weight: bold;
+    font-size: rem.rem-calc(42);
+  }
+}

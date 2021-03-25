@@ -1,0 +1,15 @@
+@use "../../styles/res/rem";
+@use "../../styles/res/colors";
+
+.page-home {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  .motto {
+    font-weight: bold;
+    font-size: rem.rem-calc(42);
+    line-height: rem.rem-calc(47);
+    margin-top: rem.rem-calc(24);
+    color: colors.$mid-gray
+  }
+}

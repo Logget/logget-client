@@ -3,7 +3,7 @@
 .lt-container {
   max-width: rem.rem-calc(820px);
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 rem.rem-calc(32px);
 }
 
 .lt-container-fluid {
