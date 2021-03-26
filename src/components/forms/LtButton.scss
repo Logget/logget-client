@@ -1,0 +1,40 @@
+@use "../../styles/res/colors";
+@use "../../styles/res/rem";
+
+.lt-btn {
+  height: rem.rem-calc(42);
+  padding: 0 rem.rem-calc(24);
+  border: none;
+  background-color: transparent;
+  border-radius: 100px;
+  font-size: rem.rem-calc(16);
+  line-height: rem.rem-calc(16);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: colors.$alto-gray;
+  }
+
+  &.lt-btn-muted {
+    background-color: colors.$primary-bg;
+    color: colors.$primary;
+
+    &:hover {
+      background-color: darken(colors.$primary-bg, 2);
+    }
+  }
+
+  &.lt-btn-primary {
+    background-color: colors.$primary;
+    color: colors.$white;
+
+    &:hover {
+      background-color: lighten(colors.$primary, 10);
+    }
+  }
+
+
+}
