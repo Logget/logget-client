@@ -5,7 +5,7 @@ import './LogoType.scss'
 
 interface LogoTypeProps {}
 
-export const LogoType: React.FC<LogoTypeProps> = ({}) => {
+export const LogoType: React.FC<LogoTypeProps> = () => {
   const { t } = useTranslation()
 
   return (
