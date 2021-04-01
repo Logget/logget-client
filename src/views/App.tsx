@@ -1,8 +1,9 @@
-import React from "react";
-import "../styles/global.scss";
-import { Route, BrowserRouter, Switch } from "react-router-dom";
-import { NoLayout } from "../layouts/NoLayout/NoLayout";
-import { Home } from "./Home/Home";
+import React from 'react'
+import '../styles/global.scss'
+import { Route, BrowserRouter, Switch } from 'react-router-dom'
+import { NoLayout } from '../layouts/NoLayout/NoLayout'
+import { Home } from './Home/Home'
+import { AuthLayout } from '../layouts/AuthLayout/AuthLayout'
 
 function App() {
   return (
@@ -15,12 +16,12 @@ function App() {
             </NoLayout>
           </Route>
           <Route path="/login">
-            <NoLayout>login</NoLayout>
+            <AuthLayout>login</AuthLayout>
           </Route>
         </Switch>
       </BrowserRouter>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

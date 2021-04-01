@@ -1,0 +1,35 @@
+@use "../../styles/res/rem";
+@use "../../styles/res/colors";
+
+.auth-layout {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .logo-type {
+    margin-top: rem.rem-calc(140);
+  }
+
+  .circle {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+    &:before {
+      content: "";
+      width: 100vh;
+      height: 100vh;
+      background-color: colors.$lilac-gray;
+      position: absolute;
+      top: rem.rem-calc(225);
+      border-radius: 50%;
+    }
+  }
+}
