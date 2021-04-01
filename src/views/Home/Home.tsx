@@ -19,7 +19,9 @@ export const Home: React.FC<HomeProps> = () => {
 
       <div className="actions">
         <LtContainer>
-          <LtButton type="muted">{t('login')}</LtButton>
+          <LtButton type="muted" to="/login">
+            {t('login')}
+          </LtButton>
           <LtButton type="primary">{t('getStarted')}</LtButton>
         </LtContainer>
       </div>
