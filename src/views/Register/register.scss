@@ -1,0 +1,26 @@
+@use "../../styles/res/rem";
+@use "../../styles/res/colors";
+
+.register {
+  text-align: center;
+
+  .title {
+    font-size: rem.rem-calc(18);
+    margin-bottom: rem.rem-calc(32);
+  }
+
+  .register-btn {
+    font-size: rem.rem-calc(18);
+    color: colors.$base-black;
+    font-weight: bold;
+
+    .icon {
+      margin-right: rem.rem-calc(12);
+    }
+  }
+
+  .email-btn {
+    margin-top: rem.rem-calc(12);
+  }
+
+}

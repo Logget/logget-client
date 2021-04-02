@@ -22,7 +22,9 @@ export const Onboarding: React.FC<OnboardingProps> = () => {
           <LtButton type="muted" to="/login">
             {t('login')}
           </LtButton>
-          <LtButton type="primary">{t('getStarted')}</LtButton>
+          <LtButton type="primary" to="/register">
+            {t('getStarted')}
+          </LtButton>
         </LtContainer>
       </div>
     </div>
