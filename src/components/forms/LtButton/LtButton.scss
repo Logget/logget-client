@@ -6,7 +6,7 @@
   padding: 0 rem.rem-calc(24);
   border: none;
   background-color: transparent;
-  border-radius: 100px;
+  border-radius: 150px;
   font-size: rem.rem-calc(16);
   line-height: rem.rem-calc(16);
   display: inline-flex;
@@ -17,6 +17,11 @@
 
   &:hover {
     background-color: colors.$alto-gray;
+  }
+
+  &.lt-btn-block {
+    display: flex;
+    width: 100%;
   }
 
   &.lt-btn-muted {
@@ -37,5 +42,12 @@
     }
   }
 
+  &.lt-btn-white {
+    background-color: colors.$white;
+    color: colors.$primary;
 
+    &:hover {
+      background-color: colors.$primary-bg;
+    }
+  }
 }
