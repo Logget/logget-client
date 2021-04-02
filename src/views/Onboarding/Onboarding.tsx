@@ -1,17 +1,17 @@
 import React from 'react'
-import './home.scss'
+import './onboarding.scss'
 import { useTranslation } from 'react-i18next'
 import { LtContainer } from '../../components/layout/LtContainer/LtContainer'
 import { LogoType } from '../../components/shared/LogoType/LogoType'
 import { LtButton } from '../../components/forms/LtButton/LtButton'
 
-interface HomeProps {}
+interface OnboardingProps {}
 
-export const Home: React.FC<HomeProps> = () => {
+export const Onboarding: React.FC<OnboardingProps> = () => {
   const { t } = useTranslation()
 
   return (
-    <div className="page-home">
+    <div className="page-onboarding">
       <LtContainer className="main-content">
         <LogoType />
         <div className="motto">{t('motto')}</div>
