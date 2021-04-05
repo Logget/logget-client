@@ -1,0 +1,20 @@
+@use "../../../styles/res/colors";
+@use "../../../styles/res/rem";
+
+.lt-input {
+  border-radius: 8px;
+  background: #fff;
+  height: rem.rem-calc(42);
+  border: 1px solid colors.$alto-gray;
+  padding: 0 rem.rem-calc(12);
+  width: 100%;
+
+  &:focus {
+    outline: none;
+    border: 1px solid colors.$primary;
+  }
+  
+  &::placeholder {
+    color: colors.$alto-gray;
+  }
+}
