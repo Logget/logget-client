@@ -1,12 +1,12 @@
 import React from 'react'
 import { mdiEmail } from '@mdi/js'
 import Icon from '@mdi/react'
-import { LtButton } from '../../components/forms/LtButton/LtButton'
-import './Start.scss'
 import googleImg from '../../assets/img/google.svg'
+import { LtButton } from '../../components/forms/LtButton/LtButton'
 import { LtContainer } from '../../components/layout/LtContainer/LtContainer'
 import { useTranslation } from 'react-i18next'
 import { AuthLayout } from '../../layouts/AuthLayout/AuthLayout'
+import './Start.scss'
 
 interface StartProps {}
 
