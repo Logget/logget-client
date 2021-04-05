@@ -4,11 +4,16 @@ import './AuthLayout.scss'
 
 interface AuthLayoutProps {
   footer?: ReactNode
+  className?: string
 }
 
-export const AuthLayout: React.FC<AuthLayoutProps> = ({ children, footer }) => {
+export const AuthLayout: React.FC<AuthLayoutProps> = ({
+  children,
+  footer,
+  className,
+}) => {
   return (
-    <div className="auth-layout">
+    <div className={`auth-layout ${className ? className : ''}`}>
       <LogoType />
       <div className="circle" />
 
