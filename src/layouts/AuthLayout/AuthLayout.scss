@@ -1,4 +1,5 @@
 @use "../../styles/res/rem";
+@use "../../styles/res/mq";
 @use "../../styles/res/colors";
 
 .auth-layout {
@@ -33,6 +34,11 @@
       position: absolute;
       top: rem.rem-calc(225);
       border-radius: 50%;
+
+      @include mq.for-desktop-up {
+        width: rem.rem-calc(1200);
+        height: rem.rem-calc(1200);
+      }
     }
   }
 
@@ -40,6 +46,10 @@
     padding-top: rem.rem-calc(92);
     width: 100%;
     height: 100%;
+
+    @include mq.for-desktop-up {
+      max-width: 500px;
+    }
   }
 
   .footer {
