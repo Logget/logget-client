@@ -4,6 +4,7 @@ import { Route, BrowserRouter, Switch } from 'react-router-dom'
 import { NoLayout } from '../layouts/NoLayout/NoLayout'
 import { Onboarding } from './Onboarding/Onboarding'
 import { AuthLayout } from '../layouts/AuthLayout/AuthLayout'
+import { Start } from './Start/Start'
 import { Register } from './Register/Register'
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
           </Route>
           <Route path="/login">
             <AuthLayout>login</AuthLayout>
+          </Route>
+          <Route path="/start">
+            <Start />
           </Route>
           <Route path="/register">
             <Register />
