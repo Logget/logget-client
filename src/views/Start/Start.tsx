@@ -13,9 +13,11 @@ interface StartProps {}
 export const Start: React.FC<StartProps> = () => {
   const { t } = useTranslation()
   const Footer = (
-    <LtButton type="white" to="/login">
-      {t('login')}
-    </LtButton>
+    <div className="start-footer">
+      <LtButton type="white" to="/login">
+        {t('login')}
+      </LtButton>
+    </div>
   )
 
   return (
