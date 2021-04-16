@@ -1,0 +1,27 @@
+@use "../../styles/res/rem";
+
+
+.register-email {
+  .input-group {
+    margin-bottom: rem.rem-calc(24);
+    display: block;
+
+    .label {
+      margin-bottom: rem.rem-calc(6);
+      display: block;
+    }
+  }
+
+}
+
+.register-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  .lt-btn {
+    .icon {
+      margin-left: rem.rem-calc(8);
+    }
+  }
+}
