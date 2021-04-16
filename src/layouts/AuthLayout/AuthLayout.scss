@@ -13,6 +13,11 @@
     margin-top: rem.rem-calc(140);
   }
 
+  .logo-link {
+    color: colors.$base-black;
+    text-decoration: none;
+  }
+
   .circle {
     height: 100vh;
     width: 100vw;
@@ -43,16 +48,23 @@
   }
 
   .content {
-    padding-top: rem.rem-calc(92);
     width: 100%;
     height: 100%;
+    padding: rem.rem-calc(92) rem.rem-calc(16) 0 rem.rem-calc(16);
 
     @include mq.for-desktop-up {
+      padding: rem.rem-calc(92) 0 0 0 ;
       max-width: 500px;
     }
   }
 
   .footer {
-    padding-bottom: rem.rem-calc(32)
+    width: 100%;
+    padding: rem.rem-calc(16);
+
+    @include mq.for-desktop-up {
+      padding: rem.rem-calc(16) 0 ;
+      max-width: 500px;
+    }
   }
 }
